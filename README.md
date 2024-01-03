@@ -1,5 +1,5 @@
 # PYTHON & DSA
-### In this you can get all the topics of [Pyhton]() along the DSA topics👍
+### In this you can get all the topics of ```PYTHON``` along the DSA topics👍
 
 
 ### You can get the `Notes` of all the topics👇
