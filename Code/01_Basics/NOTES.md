@@ -38,4 +38,9 @@ login = "true"
 ### 6. set : Set type, representing the unordered collection of unique elements ( eg. {1,2,3})
 ### 7. dict : Dictionary type, representing the key-value pairs ( eg. {"key": "value"}, {"name":"Manish", "age': 20}, here name is *key* and manish is *value*)
 ### 8. bool: Boolean type, representing either True or False. (eg. "login = True")
-### 9. NoneType: Represents the absence of a value or a null value. (eg. ")
+### 9. NoneType: Represents the absence of a value or a null value. (eg. "valur = none)
+
+* You can check the datatypes by:
+```
+print(type(variableName)) 
+```
