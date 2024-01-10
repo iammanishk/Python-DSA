@@ -55,3 +55,23 @@ print(ord(char)) # this will gives you the ascii value of M
 ascii = 64
 print(chr(ascii)) # output of this is '@'
 ```
+<hr>
+
+## `input` is used to get any value froom the user
+```
+name = input("What is your name? ") 
+# this will take your name and stores it into the name variable
+
+print("Hello " + name) 
+# this will print your name by adding prifix Hello
+```
+### - Note : input always take string, means if you are givin the input *int value* input treat with that as a string. Then we use at that place `typecasting`.
+
+### `typecasting` is used to convert one datatype into another
+
+```
+name = input("What is your name? ")
+  # this will sotre string value
+rollNo = int(input("Enter your roll number! )) 
+  # but this will store an int value
+```
