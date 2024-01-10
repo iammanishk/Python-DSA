@@ -75,3 +75,67 @@ name = input("What is your name? ")
 rollNo = int(input("Enter your roll number! )) 
   # but this will store an int value
 ```
+<hr>
+
+## OPERATORS
+#### Operators in python are symbols that perform operations on variables when they appear together in an expression
+
+1. Arithmetic Operators:
+
+- `+` : Addition
+- `-` : Subtraction
+- `*` : Multipication
+- `/` : Division
+- `%` : Modulus i.e., remainder after division
+- `//` : Floor Division - result is the quotient rounded down to the nearest integer
+- `**` : Exponentiation
+
+    ```
+    a = 10
+    b = 3
+
+    sum_result = a + b       # 13
+    difference_result = a - b  # 7
+    product_result = a * b    # 30
+    division_result = a / b   # 3.333...
+    remainder_result = a % b  # 1
+    floor_division_result = a // b  # 3
+    exponentiation_result = a ** b  # 1000
+    ```
+
+2. Comparison Operators:
+
+- `==` : Equal to
+- `!=` : Not equal to
+- `<` : Less than
+- `>` : Greater than
+- `<=` : Less than equal to
+- `>=` : Greater than equal to
+
+    ```
+    x = 5
+    y = 10
+
+    is_equal = x == y        # False
+    not_equal = x != y       # True
+    less_than = x < y        # True
+    greater_than = x > y     # False
+    less_than_equal = x <= y  # True
+    greater_than_equal = x >= y  # False
+    ```
+
+3. Logical Operators:
+   - and (Logical AND)  Return true is both statement are true
+   - or (Logical OR)    Return true if one of the statement are true
+   - not (Logical NOT)  Reverse the result, return false if the result is true
+
+   ```
+    p = True
+    q = False
+    logical_and = p and q     # False
+    logical_or = p or q       # True
+    logical_not = not p       # False
+
+   ```
+
+## *Note* : Rest are updating soon
