@@ -38,9 +38,20 @@ login = "true"
 ### 6. set : Set type, representing the unordered collection of unique elements ( eg. {1,2,3})
 ### 7. dict : Dictionary type, representing the key-value pairs ( eg. {"key": "value"}, {"name":"Manish", "age': 20}, here name is *key* and manish is *value*)
 ### 8. bool: Boolean type, representing either True or False. (eg. "login = True")
-### 9. NoneType: Represents the absence of a value or a null value. (eg. "valur = none)
+### 9. none : NoneType represents the absence of a value or a null value. (eg. "valur = none)
+### 10. complex_num : Complex dataType is used to represent the complex number. A complex number is somthing that comprise both *real part* and the *imaginary part*. (eg. complex_num = 3 + 2j)
 
 * You can check the datatypes by:
 ```
 print(type(variableName)) 
+```
+* You cha check the ascii value by usin ```ord function```
+```
+char = "M"
+print(ord(char)) # this will gives you the ascii value of M
+```
+* You can check the value corsponding to the ascii value by usin ```chr function```
+```
+ascii = 64
+print(chr(ascii)) # output of this is '@'
 ```
