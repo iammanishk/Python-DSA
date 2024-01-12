@@ -53,6 +53,21 @@
 
 
 
-# Write a program that will print the profit or loss of the product based on the cost price and sellling price
+# Write a proggram to find the greatest number using nested if else
   
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+num1 = int(input("Enter number one \n"))
+num2 = int(input("Enter number two \n"))
+num3 = int(input("Enter number three \n"))
+
+if num1 > num2:
+    if num1 > num3:
+        print("Number one is greatest ", num1)
+    else:
+        print("Number three is greatest ", num3)
+else:
+    if num2 > num3:
+        print("Number two is greatest ", num2)
+    else:
+        print("Number three is greatest ", num3)
