@@ -55,6 +55,16 @@ elif grade >= 60:
 else:
     print("F")
 ```
+## Ternary Operator
+#### The ternary operator is a concise way to express a conditional statement. It is sometimes referred to as the "conditional expression" or "ternary expression." 
+
+```
+num = int(input("Enter any number: "))
+
+output = "Even" if num % 2 == 0 else "odd"
+print("Output is", output)
+```
+
 
 ## Match Case
 #### Match case simplifies the use of if and elif chains, especially when dealing with nested structures like lists, tuples, and dictionaries.

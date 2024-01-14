@@ -57,17 +57,28 @@
  
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-num1 = int(input("Enter number one \n"))
-num2 = int(input("Enter number two \n"))
-num3 = int(input("Enter number three \n"))
+# num1 = int(input("Enter number one \n"))
+# num2 = int(input("Enter number two \n"))
+# num3 = int(input("Enter number three \n"))
 
-if num1 > num2:
-    if num1 > num3:
-        print("Number one is greatest ", num1)
-    else:
-        print("Number three is greatest ", num3)
-else:
-    if num2 > num3:
-        print("Number two is greatest ", num2)
-    else:
-        print("Number three is greatest ", num3)
+# if num1 > num2:
+#     if num1 > num3:
+#         print("Number one is greatest ", num1)
+#     else:
+#         print("Number three is greatest ", num3)
+# else:
+#     if num2 > num3:
+#         print("Number two is greatest ", num2)
+#     else:
+#         print("Number three is greatest ", num3)
+
+
+
+# ---------------------------------------------------------- TERNARY OPERATOR ----------------------------------------------------------
+
+num = int(input("Enter any number: "))
+
+# output = "Even" if num % 2 == 0 else "odd"
+# print("Output is", output) # This is also correct 
+
+print("Output is ", "even" if num % 2 == 0 else "odd") # This is short hand notation
