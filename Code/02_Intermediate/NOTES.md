@@ -90,3 +90,8 @@ def check_value(value):
 
 eg.(check_value(1))
 ```
+
+<hr>
+<br><br>
+
+# Loops
