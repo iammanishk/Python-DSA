@@ -5,4 +5,5 @@
 ### You can get the `Notes` of all the topics👇
 - ### Python Basics : [Click Here](https://github.com/iammanishk/Python-DSA/blob/main/Code/01_Basics/NOTES.md)
 - ### Python Intermediate : [Click Here](https://github.com/iammanishk/Python-DSA/blob/main/Code/02_Intermediate/NOTES.md)
+- ### Python Collections : [Click Here](https://github.com/iammanishk/Python-DSA/blob/main/Code/02_Intermediate/Python_Collection/NOTES.md)
 - ### Python Advanced : [Click Here](https://github.com/iammanishk/Python-DSA/blob/main/Code/03_Advanced/NOTES.md)
