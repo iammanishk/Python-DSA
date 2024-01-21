@@ -75,12 +75,38 @@ new_list2.pop(2)
 print(new_list2)
 ```
 
-- ## del() delets the more than one element in list
+- ### del() delets the more than one element in list
 
 ```
 example of del();
 
 del new_list1[1:3]
 print(new_list1)
-# ye first index se second index (3-1) tak delet krta hai
+# ye first index se second index (3-1=2) tak delet krta hai
 ```
+
+
+## *There are two ways to updating any list*
+1. At an index
+2. Range of index
+
+- ### At an index : You can update a list of any particular index
+```
+example of at an index:
+
+new_list1[1] = 200
+print(new_list1)
+```
+
+- ### Range of index : You can update multiple items of a list
+```
+example of range of list:
+
+new_list2[0:3] = [600, 700, 800]
+```
+Note that we have used `:` for showing the range and `[ ]` is used for giving
+
+Since we changing the multiple elements so that we give the new value in a list form. `[600, 700, 800]`
+
+
+
