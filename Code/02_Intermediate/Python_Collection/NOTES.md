@@ -110,3 +110,26 @@ Since we changing the multiple elements so that we give the new value in a list 
 
 
 
+## _LIST COMPERENSION_
+#### In pyhton **List Comprehension** is a concise and expressive way to create a list. It allow you to generate a new list by applying an expression to each item in an existing iterable and optioinally including a condition to filter elements.
+
+#### List comprehension me aap new list create kar skte hain kisi bhi pehle se bana hua list se aur usme aap conditions bhi lga skte hain (jaise mujhe sirf even number hi chahiye, etc).
+
+```
+List Compherension example:
+
+lc= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+new_lc = [i for i in lc if i%2==0]
+print(new_lc)
+```
+
+## _NESTED LIST_
+#### In pyhton you can also make a list into another list which is called **nested list**.
+
+```
+Nested List example:
+
+nL = ["Manish", "Yadhuvanshi", [21,854327, +914561237779], "Bihar", "India"]
+new_nL = nL[2]
+print(new_nL)
+```
