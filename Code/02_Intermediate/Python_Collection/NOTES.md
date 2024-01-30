@@ -170,5 +170,62 @@ print(type(single_Tup))
 ```
 
 
+### Accessing elements of a tuple
+#### You can access tuple elements by referring to the index number, inside square brackets `[]`.
+
+```
+Accessing element: 
+
+print("Accessing elements using Index: ", tup[2])
+print("Accessing element form backword: ",tup[-1])
+
+print("Accessing element from nested tuple:", nested_tup[3][2][1])
+print("Accessing element by using range index:", nested_tup[1:4])
+```
+
+###  Checking if an element exists in tuple:
+
+```
+if "BCA" in nested_tup[3]:
+    print("Yes, 'BCA' is in the tuple")
+else:
+    print("No, 'BCA' is not in the tuple")
+```
+
+### Changing a Tuple:
+#### Unlike lists, tuples are immutable. This means that elements of a tuple cannot be changed once they have been assigned. But, if the element is itself a mutable data type like list, its nested items can be changed.
+
+```
+Changing a Tuple:
+
+tuple_list = list(tup)
+tuple_list[2] = "Yadhuvanshi"
+tup = tuple(tuple_list)
+print("Tuple after changing value : ", tup)
+```
 
 
+### Tuple Packing and Unpacking:
+#### Tuple packing involves putting multiple values in a tuple, and tuple unpacking involves extracting the values back into variables.
+
+```
+Unpacking a Tuple:
+
+tup1 = ("Manish", 854327, "BCA")
+name, pin, course = tup1
+print(pin)
+print(course)
+print(name)
+```
+
+
+### Slicing of Tuple:
+```
+Example of Slicing:
+
+fruit = ("Apple", "Banana", "Cherry", "Orange", "Kiwi", "Melon", "Mango")
+
+first_three_fruit = fruit[0:3]
+print(first_three_fruit)
+print(len(first_three_fruit))
+```
