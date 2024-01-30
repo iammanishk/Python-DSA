@@ -133,3 +133,42 @@ nL = ["Manish", "Yadhuvanshi", [21,854327, +914561237779], "Bihar", "India"]
 new_nL = nL[2]
 print(new_nL)
 ```
+
+# TUPLES
+#### Tuples are similar to lists but they are immutable means once you assign a value to it you cannot change or modify that value again.
+#### Tuples are defined by enclosing elements within parentheses  `( )`, separated by commas. 
+
+#### Tuples are faster than lists because of static in nature. They do not support changes to their size, and they cannot be changed after creation.
+
+```
+Example:
+
+tup = (12,07,"Manish")
+print(tup)
+```
+
+#### They can contain any type of objects, including other tuples.
+```
+Nested Tuple:
+
+nested_tup = (12, 0.7, ("Manish", "Yadhuvanshi"), (854327, "BCA", ("C++", "Python")) )
+
+print(nested_tup)
+```
+
+### Creating a tuple with single element:
+#### You can create a tuple with single element by putting a comma `,` after the element. This is called a singleton tuple.
+
+```
+Example of Singleton:
+
+single_Tup = ("Manish") # This is not a tuple 
+print(type(single_Tup))
+
+single_Tup = ("Manish",) # This is a Single element tuple
+print(type(single_Tup))
+```
+
+
+
+
