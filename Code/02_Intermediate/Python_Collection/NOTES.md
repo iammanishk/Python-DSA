@@ -461,6 +461,15 @@ del student['email']
 print(student)
 ```
 
+- You can delet all the key-value pairs using clear() method.
+
+```
+Example:
+
+student.clear()
+print(student)
+```
+
 ### Checking if the item is present in the dictionary or not:
 - To determine if a specified key is present in a dictionary use the 'in' keyword
 
@@ -472,3 +481,46 @@ if 'age' in student:
 else:
     print("No, 'age' is not any of the keys in the student dictionary")
 ```
+
+
+### Printing the elements of the dictionary:
+
+- You can print all the keys of the dictionary using `keys()` method.
+```
+Example:
+
+print(student.keys())
+```
+
+- You can print all the values of the dictionary using values() method.
+```
+Example:
+
+print(student.values())
+```
+
+- You can print all the key-value pairs of the dictionary using items() method.
+```
+Example:
+
+print(student.items())
+```
+
+### Looping through a dictionary:
+```
+Example:
+
+for x in student:
+    print(x) # This prints all the keys of the dictionary.
+
+for x in student.items():
+    print(x) # This prints all the key-value pairs of the dictionary.
+
+for x,y in student.items():
+    print(x,y) # This prints all the key-value pairs of the dictionary in a more readable format.
+```
+
+
+`NOTE:`If you think that this notes should be more precise or in explain manner then You can cotribute to this file. Please follow the contribution guidelines provided while making changes.
+
+# Happy Coding❤️
