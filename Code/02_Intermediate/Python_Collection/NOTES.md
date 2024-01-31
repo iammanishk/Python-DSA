@@ -8,8 +8,8 @@
 
 # List
 #### A list is built-in data-structure of pyhton that store an ordered collection of elements.
-### List are muitable that means, you can modify their content by adding, removing or changing the element. And it can have duplicate element
-### List contains data of different types of datatype, and they are defined by enclosing the element by square brackets(`[]`), and seperated by comma.
+- List are muitable that means, you can modify their content by adding, removing or changing the element. And it can have duplicate element
+- List contains data of different types of datatype, and they are defined by enclosing the element by square brackets(`[]`), and seperated by comma.
 
 ```
 example of list :
@@ -104,16 +104,16 @@ example of range of list:
 
 new_list2[0:3] = [600, 700, 800]
 ```
-Note that we have used `:` for showing the range and `[ ]` is used for giving
+- Note that we have used `:` for showing the range and `[ ]` is used for giving
 
-Since we changing the multiple elements so that we give the new value in a list form. `[600, 700, 800]`
+- Since we changing the multiple elements so that we give the new value in a list form. `[600, 700, 800]`
 
 
 
 ## _LIST COMPERENSION_
 #### In pyhton **List Comprehension** is a concise and expressive way to create a list. It allow you to generate a new list by applying an expression to each item in an existing iterable and optioinally including a condition to filter elements.
 
-#### List comprehension me aap new list create kar skte hain kisi bhi pehle se bana hua list se aur usme aap conditions bhi lga skte hain (jaise mujhe sirf even number hi chahiye, etc).
+- List comprehension me aap new list create kar skte hain kisi bhi pehle se bana hua list se aur usme aap conditions bhi lga skte hain (jaise mujhe sirf even number hi chahiye, etc).
 
 ```
 List Compherension example:
@@ -124,7 +124,7 @@ print(new_lc)
 ```
 
 ## _NESTED LIST_
-#### In pyhton you can also make a list into another list which is called **nested list**.
+- In pyhton you can also make a list into another list which is called **nested list**.
 
 ```
 Nested List example:
@@ -136,9 +136,9 @@ print(new_nL)
 
 # TUPLES
 #### Tuples are similar to lists but they are immutable means once you assign a value to it you cannot change or modify that value again.
-#### Tuples are defined by enclosing elements within parentheses  `( )`, separated by commas. 
+- Tuples are defined by enclosing elements within parentheses  `( )`, separated by commas. 
 
-#### Tuples are faster than lists because of static in nature. They do not support changes to their size, and they cannot be changed after creation.
+- Tuples are faster than lists because of static in nature. They do not support changes to their size, and they cannot be changed after creation.
 
 ```
 Example:
@@ -147,7 +147,7 @@ tup = (12,07,"Manish")
 print(tup)
 ```
 
-#### They can contain any type of objects, including other tuples.
+- They can contain any type of objects, including other tuples.
 ```
 Nested Tuple:
 
@@ -157,7 +157,7 @@ print(nested_tup)
 ```
 
 ### Creating a tuple with single element:
-#### You can create a tuple with single element by putting a comma `,` after the element. This is called a singleton tuple.
+- You can create a tuple with single element by putting a comma `,` after the element. This is called a singleton tuple.
 
 ```
 Example of Singleton:
@@ -171,7 +171,7 @@ print(type(single_Tup))
 
 
 ### Accessing elements of a tuple
-#### You can access tuple elements by referring to the index number, inside square brackets `[]`.
+- You can access tuple elements by referring to the index number, inside square brackets `[]`.
 
 ```
 Accessing element: 
@@ -193,7 +193,7 @@ else:
 ```
 
 ### Changing a Tuple:
-#### Unlike lists, tuples are immutable. This means that elements of a tuple cannot be changed once they have been assigned. But, if the element is itself a mutable data type like list, its nested items can be changed.
+- Unlike lists, tuples are immutable. This means that elements of a tuple cannot be changed once they have been assigned. But, if the element is itself a mutable data type like list, its nested items can be changed.
 
 ```
 Changing a Tuple:
@@ -206,7 +206,7 @@ print("Tuple after changing value : ", tup)
 
 
 ### Tuple Packing and Unpacking:
-#### Tuple packing involves putting multiple values in a tuple, and tuple unpacking involves extracting the values back into variables.
+- Tuple packing involves putting multiple values in a tuple, and tuple unpacking involves extracting the values back into variables.
 
 ```
 Unpacking a Tuple:
@@ -228,4 +228,45 @@ fruit = ("Apple", "Banana", "Cherry", "Orange", "Kiwi", "Melon", "Mango")
 first_three_fruit = fruit[0:3]
 print(first_three_fruit)
 print(len(first_three_fruit))
+```
+
+
+# SETS:
+- A set is an unordered collection data type that is iterable, mutable, and has no duplicate elements.
+- It supports membership test operations (in), search for an element with the help of in keyword.
+- Set objects also support set arithmetic operations like union, intersection, difference, symmetric difference.
+- Sets are defined by enclosing element within curly braces `{}` or by usiung the `set()` constructor.  
+
+```
+Example:
+
+set = {"Manish", 21, 854327}
+print(set)
+```
+
+
+## SET OPERATION
+
+### Adding elements:
+
+1. Addition of elements to the set using "update()" function.
+- We can add multiple elements using update() function.(eg. list, tuple)
+
+
+```
+update function():
+
+set1 = {1, 2, 3}  
+set1.update(["Number", "String"])
+print(set1)
+```
+
+2. Addition of element to the set using "add()" function.
+-  We can add only one element using add() function.
+
+```
+add function():
+
+set1.add(8)
+print(set1)
 ```

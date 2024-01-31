@@ -98,3 +98,15 @@ fruit = ("Apple", "Banana", "Cherry", "Orange", "Kiwi", "Melon", "Mango")
 first_three_fruit = fruit[0:3]
 print(first_three_fruit)
 print(len(first_three_fruit))
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------------- PRACTICE -------------------------------------------------
