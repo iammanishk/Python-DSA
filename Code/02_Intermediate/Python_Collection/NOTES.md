@@ -335,3 +335,140 @@ Example:
 set1.discard(12)
 print(set1)
 ```
+
+
+
+# DICTIONARY:
+- A dictionary is a data structure that allows you to store and retrieve values using a key.
+- It is similar to a real-world dictionary where you look up words to find their meanings.
+- In a Python dictionary, each key is associated with a value, forming a key-value pair.
+
+```
+Example:
+
+student = {
+    'name' : "Manish Yadhuvanshi",
+    'age' : 21,
+    'courses' : ["Python", "Machine Learning", "Data Science"],
+    'is_active' : True
+    }
+
+print(student)
+```
+
+- Because dictionary is key value-pair, so here `key` is ''name'' and `value` is "Manish Yadhuvanshi"
+
+- You can also access their  values by referring the `key`.
+
+```
+Example: 
+
+print("Name of student: ", student['name'])
+print("Age of student: ", student['age'])
+```
+
+
+- Dictionary items could be **Ordered** and **Changable**
+- In dictionary duplicate value is not allowed and it
+- In dictionary you can add any **datatype**
+```
+List datatypes example:
+
+'courses' : ["Python", "Machine Learning", "Data Science"],
+```
+
+### Accessing the dictionary:
+- You can access the items of a dictionary by referring to its key name, inside square brackets `[]`. If the item is not found, it will raise a KeyError.
+
+```
+Example:
+
+print("Name of student: ", student['name'])  # This will print correctly
+print("Age of student: ", student['village'])  # This will gives KeyError
+```
+
+- If you try to access a key that doesn’t exist in the dictionary, Python will raise an error.
+- To avoid this we use `get()` method which returns 'None' if the key does not exist in the dictionary.
+
+```
+Example:
+
+print("Phone number of student: ", student.get('village'))  # This will not gives error insted of that it gives 'None'
+```
+
+### Modifying Values:
+- You can change the value of a specific item by referring to its key name.
+
+```
+Example:
+
+student['age'] = 20
+print(student)
+```
+
+### Adding New Key-Value Pairs:
+- Adding an item to the dictionary is done by using a new index key and assigning a value to it.
+
+```
+Example:
+
+student['email'] = "iammaanisshhh@gmail.com"
+student['grade'] = "A+"
+print(student)
+```
+
+- You can also use update() method to add new key-value pairs to the dictionary
+
+```
+Example:
+
+address = {
+    'city' : "Purnea",
+    'state' : "Bihar",
+    'country' : "India"
+}
+
+student.update(address)
+print(student)
+```
+
+### Removing Key-Value Pairs:
+
+- Removing an item from the dictionary is done by using the pop() method. This method removes the item with the specified key name.
+
+```
+Example:
+
+student.pop('grade') # This removes the whole pair (key & Value).
+# print(student)
+```
+
+- The popitem() method removes the last inserted item (in versions before 3.7, a random item is removed instead).
+
+```
+Example:
+
+student.popitem()
+print(student)
+```
+
+- You can remove the key-value pair using del keyword also.
+
+```
+Example:
+
+del student['email']
+print(student)
+```
+
+### Checking if the item is present in the dictionary or not:
+- To determine if a specified key is present in a dictionary use the 'in' keyword
+
+```
+Example:
+
+if 'age' in student:
+    print("Yes, 'age' is one of the keys in the student dictionary")
+else:
+    print("No, 'age' is not any of the keys in the student dictionary")
+```
