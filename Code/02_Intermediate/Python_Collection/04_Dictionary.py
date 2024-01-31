@@ -74,6 +74,10 @@ student.update(address)
 # del student['email']
 # print(student)
 
+# You can delet all the key-value pairs using clear() method.
+
+# student.clear()
+# print(student)
 
 # Checking if the item is present in the dictionary or not:
 
@@ -83,3 +87,26 @@ student.update(address)
 #     print("Yes, 'age' is one of the keys in the student dictionary")
 # else:
 #     print("No, 'age' is not any of the keys in the student dictionary")
+
+# Printing the elements of the dictionary:
+
+# You can print all the keys of the dictionary using keys() method.
+# print(student.keys())
+
+# You can print all the values of the dictionary using values() method.
+# print(student.values())
+
+# You can print all the key-value pairs of the dictionary using items() method.
+# print(student.items())
+
+# Looping through a dictionary:
+for x in student:
+    print(x) # This prints all the keys of the dictionary.
+
+for x in student.items():
+    print(x) # This prints all the key-value pairs of the dictionary.
+
+for x,y in student.items():
+    print(x,y) # This prints all the key-value pairs of the dictionary in a more readable format.
+
+
