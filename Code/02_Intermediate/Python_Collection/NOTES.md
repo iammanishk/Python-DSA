@@ -270,3 +270,68 @@ add function():
 set1.add(8)
 print(set1)
 ```
+
+3. Adding two sets together using union `|` operator:
+- This  will not remove any common elements from both sets but it will combine all unique elements present in both sets.
+- Returns a new set containing all unique elements from both sets.
+
+```
+Example:
+
+set1 = {1, 2, 3}        
+set2 = {4, 5, 6, 3}
+set3 = set1 | set2
+print(set3)
+```
+
+4. Intersection (&) Method:
+- This returns a set, that contains only the elements that are common to all the sets
+
+```
+Example:
+
+insersection_set = set1 & set2
+print("This is insersection set: ",insersection_set)
+```
+
+5. Difference (-):
+- This returns a new set containing elements present in the first set but not in the second.
+
+```
+Example:
+
+difference_set = set1 - set2
+print("This is difference set: ",difference_set)
+```
+
+6. Symmetric Difference (^):
+- Returns a new set containing elements that are unique to each set.
+
+```
+Example:
+
+symmmetric_set = set1 ^ set2
+print("This is symmetric set: ",symmmetric_set)
+```
+
+### Removing Elements:
+
+1. remove() method:
+- It removes an element from the set if it exists. If the value is not found in the set, then it gives you the KeyError
+
+```
+Example:
+
+set1.remove(12)
+print(set1)
+```
+
+2. discard() method:
+-  It also removes an element from the set, but unlike remove(), it doesn’t raise an error if the specified value is not found.
+
+```
+Example:
+
+set1.discard(12)
+print(set1)
+```
