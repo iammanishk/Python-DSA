@@ -8,7 +8,7 @@
 - switch
 
 ## 1. if statement:
-#### The if statement is used to execute a block of code only if a specified condition is true.
+- The if statement is used to execute a block of code only if a specified condition is true.
   ```
    x = 10
 
@@ -17,7 +17,7 @@
   ```
 
 ## 2. if-else statement:
-#### The if-else statement extends the if statement by providing an alternative block of code to be executed when the condition is false.
+- The if-else statement extends the if statement by providing an alternative block of code to be executed when the condition is false.
 ```
 x = 3
 
@@ -27,7 +27,7 @@ else:
     print("x is not greater than 5")
 ```
 ## 3. elif statement:
-#### The elif (else if) statement is used to check additional conditions if the preceding if or elif conditions are false.
+- The elif (else if) statement is used to check additional conditions if the preceding if or elif conditions are false.
 ```
 x = 5
 
@@ -40,7 +40,7 @@ else:
 
 ```
 
-### You can have multiple elif statements to check multiple conditions.
+- You can have multiple elif statements to check multiple conditions.
 ```
 grade = 75
 
@@ -56,7 +56,7 @@ else:
     print("F")
 ```
 ## Ternary Operator
-#### The ternary operator is a concise way to express a conditional statement. It is sometimes referred to as the "conditional expression" or "ternary expression." 
+- The ternary operator is a concise way to express a conditional statement. It is sometimes referred to as the "conditional expression" or "ternary expression." 
 
 ```
 num = int(input("Enter any number: "))
@@ -67,11 +67,11 @@ print("Output is", output)
 
 
 ## Match Case
-#### Match case simplifies the use of if and elif chains, especially when dealing with nested structures like lists, tuples, and dictionaries.
-#### This is also known as **Pattern Matching**
-#### If you are familiar with C and C++ than you will know it by Switch statement
+- Match case simplifies the use of if and elif chains, especially when dealing with nested structures like lists, tuples, and dictionaries.
+- This is also known as **Pattern Matching**
+- If you are familiar with C and C++ than you will know it by Switch statement
 
-- ### This is introuduced in **PYTHON** `V3.10`
+- This is introuduced in **PYTHON** `V3.10`
 
 ```
 def check_value(value):
@@ -95,12 +95,12 @@ eg.(check_value(1))
 <br><br>
 
 # Loops
-#### Loops in pyhton is somthing doing a task repeatidely until a particular condition is satisfied.
+- Loops in pyhton is somthing doing a task repeatidely until a particular condition is satisfied.
 - There are two types of loops in python - `for loop` & `while loop`.
 
 ## FOR LOOP
-#### The for loop is used to iterate over a sequence (such as a list, tuple, string, or range) and execute a block of code for each element in the sequence.
-#### _For loop is like maine tumhe 10 rupee diye hai tum 10 ghanta kaam karo (1 rupee ke badle ek ghanta , to 10 rupee ke badle 10 ghanta)_
+- The for loop is used to iterate over a sequence (such as a list, tuple, string, or range) and execute a block of code for each element in the sequence.
+- _For loop is like maine tumhe 10 rupee diye hai tum 10 ghanta kaam karo (1 rupee ke badle ek ghanta , to 10 rupee ke badle 10 ghanta)_
 
 ```
 example:
@@ -126,9 +126,9 @@ for i in range(1, 10):
 ```
 
 ## while Loop:
-#### The while loop is used to repeatedly execute a block of code as long as a specified condition is true.
+- The while loop is used to repeatedly execute a block of code as long as a specified condition is true.
 
-#### _While loop is like maine tumhe 10 rupee diye hai na, jab tak 10 rupee khatam nahi ho jaata tab tak kaam karo_
+- _While loop is like maine tumhe 10 rupee diye hai na, jab tak 10 rupee khatam nahi ho jaata tab tak kaam karo_
 
 ```
 # Example of a while loop
@@ -139,10 +139,10 @@ while count < 5:
     count += 1
 ```
 
-- ## Both for and while loops can be controlled using loop control statements:
+- Both for and while loops can be controlled using loop control statements:
 
-### Continue statement: Skips the rest of the code inside the loop for the current iteration and proceeds to the next iteration.
-#### _Contiue statement be like meri chinta mat karo tum aage badho next iteration ko pakdo._
+- Continue statement: Skips the rest of the code inside the loop for the current iteration and proceeds to the next iteration.
+- _Contiue statement be like meri chinta mat karo tum aage badho next iteration ko pakdo._
  ```
  for i in range(10):
     if i % 2 == 0:
@@ -150,9 +150,9 @@ while count < 5:
     print(i)
  ```
 
- ### Break statement: Terminates the loop prematurely, and the control is transferred to the next statement after the loop.
+- Break statement: Terminates the loop prematurely, and the control is transferred to the next statement after the loop.
 
- #### _Break statement be like main tumhara raja hun main agar mar jaun to tum yahi se laut jaana next iteratrion ko kabhi mat pakadna_
+- _Break statement be like main tumhara raja hun main agar mar jaun to tum yahi se laut jaana next iteratrion ko kabhi mat pakadna_
  ```
  for i in range(10):
     if i == 5:
