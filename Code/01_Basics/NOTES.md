@@ -14,6 +14,17 @@ name = "Manish"
 login = "true"
 ```
 
+### Formatted string literals:
+-  It also allows you to embed expressions inside the string using curly braces {}.
+
+```
+Example:
+
+name = input("Enter your name: )
+print(f"Hello {name} How are you")
+```
+
+
 ### And data could be anything
 - It could be Integers
 - It couold be String

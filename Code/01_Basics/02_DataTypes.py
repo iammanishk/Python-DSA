@@ -37,3 +37,8 @@ print(ord(char))
 # You can check the value corsponding to the ascii value by usin chr function
 ascii = 64
 print(chr(ascii)) # output of this is '@'
+
+# f-string:
+
+name = input("Enter your name: ")
+print(f"Hello {name} How Are You?")
