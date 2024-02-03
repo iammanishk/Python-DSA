@@ -134,13 +134,70 @@
 # A function defined inside another function is called a nested function.
 # Nested function is used to avoid code redundancy and to improve code readability.
 
-def outer_function(x):
-    def inner_function(y):
-        return x + y
-    return inner_function
+# def outer_function(x):
+#     def inner_function(y):
+#         return x + y
+#     return inner_function
 
-# Using the nested functions
-closure = outer_function(10)
-result = closure(5)
-print(result)
+# # Using the nested functions
+# closure = outer_function(10)
+# result = closure(5)
+# print(result)
+
+
+
+# def outer(*args):
+#     i = int(input("Enter number: "))
+
+#     def inner(*args):
+#         x = int(input("Enter number: "))
+#         y = int(input("Enter number: "))
+#         sum = x + y+i
+#         return sum
+#     return inner()
+
+
+# output = outer()
+# print(output)
+
+
+
+# Pass by value and Pass by reference:
+
+
+# Python uses pass by object reference, which is a combination of pass by value and pass by reference.
+
+# In pass by value, a copy of an object is passed to the function. This means that any changes made to the object inside the function do not affect the original object.
+
+def addOne(x):
+    x = x + 1
+    print("Inside finction: ", x)
+
+x = 5
+addOne(x)
+print("Outside function: ", x)
+
+# In pass by reference, a reference to the object is passed to the function. This means that any changes made to the object inside the function do affect the original object.
+
+
+def modified_list(list):
+    list.append(4)
+    print("Inside function: ", list)
+
+list = [1,2,3]
+modified_list(list)
+print("Outside the function: ", list)
+
+
+# In python, all objeect are passed by object reference. This means that when you passing an object to a function, the function recive the reference to the object, not the object itself. If the function chage the object, the original object will also changed.
+
+
+def modified_list(list):
+    list.append(4)
+    print("Inside function: ", list)
+
+list = [1,2,3]
+modified_list(list)
+print("Outside the function: ", list)
+
 
