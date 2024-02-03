@@ -149,4 +149,14 @@ rollNo = int(input("Enter your roll number! ))
 
    ```
 
+   # Mutable and Immutable datatypes:
+
+   1. Mutable: 
+   - Mutable objects are those which can be change after creating. (list, dictionary and sets)
+   - Any changes made inside the function can affect the original object.
+
+   2. Immutable Object:
+   - Immutable objects are those which cannot modified after the creation. (int,float, boolean, string, bytes and tuples)
+   -  Any changes made inside a function to these object result in a new object, and the original object remains unchanged. (int, float, string)
+
 ## *Note* : Rest are updating soon
