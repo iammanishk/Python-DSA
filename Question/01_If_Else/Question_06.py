@@ -23,5 +23,3 @@ else:
     print("Enter a valid unit of electricity.")
 
     
-
-    
