@@ -1,5 +1,5 @@
 # Data Structures and Algorithms in Python
-In this  repository, you will find the topic of the python form basics to advanced along with DSA. Each folder contain a dedicated note file `Notes.md`
+In this  repository, you will find the Python topic from basics to advanced along with DSA. Each folder contains a dedicated note file `Notes.md`
 
 #### You can get the `Notes` of all the topics👇
 - Python Basics : [Click Here](https://github.com/iammanishk/Python-DSA/blob/main/Code/01_Basics/NOTES.md)
@@ -51,3 +51,9 @@ git push origin feature/your-feature
 - Ensure that your code is well-documented.
 - Add comments to explain the purpose of functions, classes, and any important logic
 Thank you for your contribution! Your efforts help make this project better for everyone.❤️
+
+![Static Badge](https://img.shields.io/badge/%20follow%20me-follow%20me?style=for-the-badge&logo=x&color=black&link=https%3A%2F%2Ftwitter.com%2FManishYadhuvan6)
+![Static Badge](https://img.shields.io/badge/%20get%20connect-follow%20me?style=for-the-badge&logo=linkedin&color=%230A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmanish-go-profile%2F)
+![Static Badge](https://img.shields.io/badge/u_manny-follow%20me?style=for-the-badge&logo=discord&color=%20%09%237289da&link=https%3A%2F%2Fdiscord.com%2Fchannels%2F%40me)
+![Static Badge](https://img.shields.io/badge/%40damascus_sword-follow%20me?style=for-the-badge&logo=instagram&color=%23F77737&link=https%3A%2F%2Fwww.instagram.com%2F_damascus_sword%2F)
+
