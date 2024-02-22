@@ -177,3 +177,30 @@ list = [1,2,3]
 modified_list(list)
 print("Outside the function: ", list)
 ```
+
+#### In Python, functions can be categorized into two main types: built-in functions and user-defined functions.
+###  Built-in Functions:
+- Built-in functions are functions that come pre-defined in the Python language. They are readily available for use without requiring additional declarations or definitions.
+- Examples of built-in functions include print(), len(), type(), and many others.
+
+```
+# Using built-in functions
+
+print("Hello, World!")  # print() is a built-in function
+length = len([1, 2, 3, 4, 5])  # len() is a built-in function
+data_type = type(42)  # type() is a built-in function
+```
+
+### User-Defined Functions:
+- User-defined functions are created by the Python programmer to perform specific tasks. These functions are defined using the def keyword, and they can have parameters and a body of code. 
+- User-defined functions provide a way to modularize code and make it more organized and reusable.
+```
+# Defining a user-defined function
+
+def greet(name):
+    """This function greets the person passed in as a parameter."""
+    print("Hello, " + name + "!")
+
+# Using the user-defined function
+greet("Alice")  # Calls the greet() function with "Alice" as an argument
+```
