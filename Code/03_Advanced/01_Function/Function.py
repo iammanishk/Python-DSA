@@ -201,3 +201,15 @@ modified_list(list)
 print("Outside the function: ", list)
 
 
+# Lambda Function:
+
+# A lambda function in Python is an anonymous function defined using the lambda keyword. It's called "anonymous" because it doesn't require a formal name like a regular function defined with def. Lambda functions are typically used for short, simple operations where a full function definition might be overkill.
+
+# Write a program to calculate the cube of a number using lambda function.
+
+number = int(input("Enter a number: "))
+
+cube = lambda x: x**3
+
+result = cube(number)
+print("The cube of the number is: ", result)
