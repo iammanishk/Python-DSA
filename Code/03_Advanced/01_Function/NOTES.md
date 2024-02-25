@@ -204,3 +204,20 @@ def greet(name):
 # Using the user-defined function
 greet("Alice")  # Calls the greet() function with "Alice" as an argument
 ```
+
+
+## Lambda Function
+- A lambda function in Python is an anonymous function defined using the `lambda` keyword. It's called "anonymous" because it doesn't require a formal name like a regular function defined with def. Lambda functions are typically used for short, simple operations where a full function definition might be overkill.
+
+- The syntax of a lambda function is:
+    ```
+    lambda arguments: expression
+    ```
+
+    ```
+    # Example:
+    
+    add = lambda x, y: x + y
+    result = add(3, 5)
+    print(result)  # Output: 8
+    ```
