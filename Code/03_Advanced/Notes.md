@@ -1,1 +1,3 @@
-rjdfjkebjrjkerh 
+- Function:  [Click here](https://github.com/iammanishk/Python-DSA/blob/main/Code/03_Advanced/01_Function/NOTES.md)
+- OOPS:  [Click here](https://github.com/iammanishk/Python-DSA/blob/main/Code/03_Advanced/02_OOPs/OOPs_Notes.md)
+- Decorators:  [Click here](https://github.com/iammanishk/Python-DSA/blob/main/Code/03_Advanced/03_Decorators/Decorators_Notes.md)
