@@ -1,4 +1,4 @@
-# This is the proper containing all the parts of the OOPs concept.
+# This note contains all the parts of the OOPs concept.
 
 - Object-oriented programming (OOP) is a programming paradigm that organizes code into objects, which represent real-world entities, and allows these objects to interact with each other. 
 
